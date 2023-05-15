@@ -1,5 +1,6 @@
 package com.sergeysergeev.spring.mvc_hibernate.config;
 
+import com.sergeysergeev.spring.mvc_hibernate.model.Car;
 import com.sergeysergeev.spring.mvc_hibernate.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -39,7 +40,7 @@ public class AppConfig {
       LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
       Properties properties = new Properties();
       sessionFactory.setDataSource(getDataSource());
-      sessionFactory.setAnnotatedClasses(User.class);
+      sessionFactory.setAnnotatedClasses(User.class, Car.class);
       properties.put("hibernate.show_sql", environment.getProperty("hibernate.show_sql"));
       properties.put("hibernate.hbm2ddl.auto", environment.getProperty("hibernate.hbm2ddl.auto"));
       properties.put("hibernate.dialect", environment.getProperty("hibernate.dialect"));

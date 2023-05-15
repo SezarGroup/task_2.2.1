@@ -11,14 +11,19 @@ import java.util.List;
 public class UserServiceImpl implements UserService{
 
     @Autowired
-    private UserDAO userDAO;
+    private UserDAO userDao;
 
     public List<User> getAllUsers() {
-        return userDAO.getAllUsers();
+        return userDao.getAllUsers();
     }
 
     @Override
     public void addUser(User user) {
-        userDAO.addUser(user);
+        userDao.addUser(user);
+    }
+
+    @Override
+    public User getUserByCar(String model, int serial) {
+        return userDao.getUserByCar(model, serial);
     }
 }
