@@ -26,4 +26,12 @@ public class UserDaoImpl implements UserDAO{
     public void addUser(User user) {
         sessionFactory.getCurrentSession().save(user);
     }
+
+    @Transactional
+    @Override
+    public User getUserByCar(String model, int serial) {
+        int id = (Integer) sessionFactory.getCurrentSession().createQuery(("select id from Car where " +
+                "model = '" + model + "'and series = '" + serial + "'")).getSingleResult();
+        return sessionFactory.getCurrentSession().createQuery("from User where id = '" + id + "'", User.class).getSingleResult();
+    }
 }

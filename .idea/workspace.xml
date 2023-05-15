@@ -45,7 +45,18 @@
       <change afterPath="$PROJECT_DIR$/../spring_mvc_hibenate/target/classes/hibernate/service/UserService.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring_mvc_hibenate/target/classes/hibernate/service/UserServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring_mvc_hibenate/target/classes/spring.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sergeysergeev/spring/mvc_hibernate/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sergeysergeev/spring/mvc_hibernate/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sergeysergeev/spring/mvc_hibernate/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sergeysergeev/spring/mvc_hibernate/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sergeysergeev/spring/mvc_hibernate/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sergeysergeev/spring/mvc_hibernate/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sergeysergeev/spring/mvc_hibernate/model/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +73,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -132,7 +144,7 @@
       <workItem from="1683849500764" duration="6075000" />
       <workItem from="1683855599418" duration="2078000" />
       <workItem from="1683872070779" duration="1212000" />
-      <workItem from="1684110719750" duration="3180000" />
+      <workItem from="1684110719750" duration="9021000" />
     </task>
     <servers />
   </component>
